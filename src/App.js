@@ -6,7 +6,19 @@ import Contact from "./compenents/Contact";
 function App() {
   return (
     <div className="App">
-      <Contact/>
+      <Contact
+      name="George"
+      online={true}
+      avatar="https://randomuser.me/api/portraits/men/71.jpg"
+      />
+      <Contact
+      name="Joannique"
+      online={false}
+      avatar="https://randomuser.me/api/portraits/men/29.jpg"/>
+      <Contact
+      name="Gertrude"
+      online={true}
+      avatar="https://randomuser.me/api/portraits/women/7.jpg"/>
 
     </div>
   );
