@@ -45,3 +45,8 @@
   .Contact .status .status-offline {
     background: #f4511e;
   }
+
+  .beau{
+    display: flex;
+    align-items: baseline;
+  }
